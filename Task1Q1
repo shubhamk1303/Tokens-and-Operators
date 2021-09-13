@@ -8,11 +8,12 @@ int main()
     float z;
     double a;
 
-    cout<<"Size of int is:"<<sizeof(x)<<endl;
-    cout<<"Size of char is:"<<sizeof(y)<<endl;
-    cout<<"Size of float is:"<<sizeof(z)<<endl;
-    cout<<"Size of double is:"<<sizeof(a)<<endl;
+    cout<<"Size of int is:\n"<<sizeof(x);
+    cout<<"Size of char is:\n"<<sizeof(y);
+    cout<<"Size of float is:\n"<<sizeof(z);
+    cout<<"Size of double is:\n"<<sizeof(a);
 
 
     return 0;
 }
+
